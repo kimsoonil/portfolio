@@ -35,7 +35,7 @@
 #container .main_topPopup .reserve ul li {display:inline-block; width:8%; margin:0 2%;line-height:65px;}
 #container .main_topPopup .reserve ul li:first-child {width:13%;margin:0 3%;}
 #container .main_topPopup .reserve ul li:nth-child(2) {width:13%;margin:0 3%;}
-#container .main_topPopup .reserve ul li. {width:9%; height:auto;}
+/* #container .main_topPopup .reserve ul li. {width:9%; height:auto;} */
 
 #container .main_topPopup .reserve select {
 	width:auto;
@@ -147,7 +147,7 @@
 #container .article_area_2 ul li {width:45%; height:100%;margin-top:40px;}
 #container .article_area_2 > ul > li > img {width:88%;}
 #container .article_area_2 .odd {float:left; text-align:center;}
-#container .article_area_2 .even {float:right; text-align:center;}}
+#container .article_area_2 .even {float:right; text-align:center;}
 #container .article_area_2 .dinning_detail {text-align:center;}
 #container .dinning_detail div strong {
 	display:block;
@@ -282,7 +282,7 @@
 #container2 .main_topPopup .reserve ul {margin:0 auto; height:55px;text-align:center; }
 #container2 .main_topPopup .reserve ul li {display:inline-block; width:8%; height:100%;margin:0 2%;line-height:65px;}
 #container2 .main_topPopup .reserve ul li:first-child,#container2 .main_topPopup .reserve ul li:nth-child(2) {width:13%;margin:0 4%}
-#container2 .main_topPopup .reserve ul li. {width:9%; height:auto;}
+/* #container2 .main_topPopup .reserve ul li. {width:9%; height:auto;} */
 
 #container2 .main_topPopup .reserve select {
 	width:auto;
@@ -388,7 +388,7 @@
 #container2 .article_area_2 ul li {width:45%; height:100%; margin-top:40px;}
 #container2 .article_area_2 > ul > li > img {width:88%;}
 #container2 .article_area_2 .odd {float:left; text-align:center;}
-#container2 .article_area_2 .even {float:right; text-align:center;}}
+#container2 .article_area_2 .even {float:right; text-align:center;}
 #container2 .article_area_2 .airline_food_detail {text-align:center;}
 #container2 .airline_food_detail div strong {
 	display:block;
