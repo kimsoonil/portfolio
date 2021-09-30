@@ -656,7 +656,7 @@ button{
 input[type="radio"]+span,
 input[type="checkbox"]+span{
 	width:30px;
-	width:;
+
 }
 input[type="radio"]+span{
 	position:relative;
