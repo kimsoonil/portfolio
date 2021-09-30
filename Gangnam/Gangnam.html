@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/page_logo.gif" type="image/x-icon">
+    <title>Gangnam</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+    <link rel="stylesheet" href="css/elastic_grid.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/modernizr.custom.js"></script> <!-- food부분 -->
+    <script src="js/classie.js"></script>
+    <script src="js/elastic_grid.min.js"></script>
+	<script src="js/scroll_banner.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui.structure.min.css">	
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="nav_logo_wrapper">
+            <img src="images/logo.gif" alt="nav_logo" id="MOVE_TOP_BTN">
+        </div>
+        <nav id="main_nav">
+            <ul>
+                <li class="scrollBtn">GANGNAM</li>
+                <li class="scrollBtn">WEATHER</li>
+                <li class="scrollBtn">PLACE</li>
+                <li class="scrollBtn">FOOD</li>
+                <li class="scrollBtn">GALLERY</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="main_title_wrapper">
+            <img src="images/logo.gif" alt="main_imgs">
+            <div class="title_circle_wrapper">
+                <div class="title_circle tc_18px" style="top: 42%; left: 23%;"></div>
+                <div class="title_circle tc_16px" style="top: 21%; left: 26%;"></div>
+                <div class="title_circle tc_14px" style="top: 27%; left: 44%;"></div>
+                <div class="title_circle tc_14px" style="top: 61%; left: 28%;"></div>
+                <div class="title_circle tc_12px" style="top: 50%; left: 60%;"></div>
+                <div class="title_circle tc_10px" style="top: 50%; left: 40%;"></div>
+                <div class="title_circle tc_10px" style="top: 106%; left: 32%;"></div>
+                <div class="title_circle tc_6px" style="top: 90%; left: 29%;"></div>
+                <div class="title_circle tc_6px" style="top: 108%; left: 53%;"></div>
+                <div class="title_circle tc_6px" style="top: 62%; left: 67%;"></div>
+                <div class="title_circle tc_6px" style="top: 104%; left: 71%;"></div>
+                <div class="title_circle tc_4px" style="top: 52%; left: 52%;"></div>
+                <div class="title_circle tc_4px" style="top: 98%; left: 75%;"></div>
+
+            </div>
+        </div>
+        <div class="scroll_down_wrapper">
+            <div class="scroll_down_img_wrapper">
+                <img src="images/scroll_mono.png" alt="scroll_down">
+                <img src="images/scroll_mono.png" alt="scroll_down">
+                <img src="images/scroll_mono.png" alt="scroll_down">
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="info_wrapper">
+            <div class="information_wrapper" style="overflow: hidden">
+                <div class="info_map">
+                    <img src="images/map.png" alt="map">
+                </div>
+                <div class="basic_info_wrapper">
+                    <ul class="basic_list">
+                         <li><span>위치</span><span>대한민국 서울특별시 강남구로 서울에 남동부에 위치</span></li>
+                        <li><span>면적</span><span>39.51km<sup>2</sup></span></li>
+                        <li><span>인구</span><span>577,417명 남 276,874 여 300,543 <br />비율 47.95%(남) 52.05%(여)</span></li>
+                        <li><span>홈페이지</span><span><a href="http://www.gangnam.go.kr" target="_blank">www.gangnam.go.kr</a></span></li>
+                    </ul>
+                </div>
+            </div>
+	</section>
+            <section class="weather">
+                <div class="today_weather">
+                    <div class="weather_img_wrapper">
+                        <img src="images/sun.png" alt="today_weather">
+                    </div>
+                    <div class="degree_wrapper">
+                        <div class="present_degree">26˚C</div>
+                        <div class="today_degree">18˚/29˚C</div>
+                    </div>
+                </div>
+                <div class="weekly_weather_wrapper">
+                    <ul class="weekly_weather">
+                        <li>
+                            <div class="weekly_img"><img src="images/icon_Sensible_temperature.png"></div>
+                            <div class="weekly_degree">체감온도 27.7˚</div>
+                        </li>
+                        <li>
+                            <div class="weekly_img"><img src="images/icon_UV-rays.png"></div>
+                            <div class="weekly_degree">자외선 8 </div>
+				    <div class="feeling"><img src="images/icon_very_bad.png" alt="very_bad" />매우나쁨</div>		
+                        </li>
+                        <li>
+                            <div class="weekly_img"><img src="images/icon_fine_dust.png"></div>
+                            <div class="weekly_degree">미세먼지 36㎍/㎥</div>
+				    <div class="feeling"><img src="images/icon_normal.png" alt="normal" />보통</div>		
+                        </li>
+                        <li>
+                            <div class="weekly_img"><img src="images/icon_Ultrafine_dust.png"></div>
+                            <div class="weekly_degree">초미세먼지 24㎍/㎥</div>
+				    <div class="feeling"><img src="images/icon_normal.png" alt="normal" />보통</div>	
+                        </li>
+                        <li>
+                            <div class="weekly_img"><img src="images/icon_ozone.png"></div>
+                            <div class="weekly_degree">오존지수 0.016ppm</div>
+				    <div class="feeling"><img src="images/icon_good.png" alt="good" />좋음</div>	
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="place">
+        <div class="place_wrapper">
+            <div class="grid_title">PLACE</div>
+            <div id="grid_place">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="food_total">
+        <div class="food_wrapper">
+            <div class="grid_title">FOOD</div>
+            <div id="grid_food">
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery_wrapper">
+            <div class="grid_title" style="opacity: 1">GALLERY</div>
+            <div class="gallery_wrap">
+                <div class="gallery_thumb">
+                    <img src="images/gal_1.jpg">
+                    <img src="images/gal_2.jpg">
+                    <img src="images/gal_3.jpg">
+                    <img src="images/gal_5.jpg">
+                    <img src="images/gal_6.jpg">
+                    <img src="images/gal_7.jpg">
+                    <img src="images/gal_8.jpg">
+                    <img src="images/gal_9.jpg">
+                </div>
+            </div>
+            <div class="lightbox_area">
+                <img src="images/5.png" id="left_btn">
+                <img src="images/6.png" id="right_btn">
+                <img src="images/gal_1.jpg" id="rawimage">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer_logo">
+                <img src="images/logo.gif">
+            </div>
+
+            <div class="footer_content_wrapper">
+                <ul class="footer_content">
+                    <li>All rights reserved <span></span></li>
+                    <li>Privacy Policy<span></span></li>
+					<li>Terms & Conditions<span></span></li>
+					<li>Designed by Fame House<span></span></li>
+                </ul>
+
+                <div class="footer_content_2">
+                    <p>© Copyright 2018 by gangnam.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

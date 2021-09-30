@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "chosun";
+    src: url("fonts/chosun.woff");
+}
+
+@font-face {
+    font-family: "oswald_l";
+    src: url("fonts/Oswald-Light.ttf");
+}
+
+
+@font-face {
+    font-family: "oswald_r";
+    src: url("fonts/Oswald-Regular.ttf");
+}
+
+@font-face {
+    font-family: "gyung_l";
+    src: url("fonts/gyung_l.ttf");
+}
