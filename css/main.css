@@ -663,7 +663,16 @@ body {
   z-index: 9998;
   overflow: hidden;
 }
-
+#wrap .section.bg_6 .txt {
+  color: #fff;
+  font-size: 18px;
+}
+#wrap .section.bg_6 .txt p {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
 #wrap .circle-6-1 {
   position: absolute;
   top: 50%;
